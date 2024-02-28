@@ -31,6 +31,15 @@ namespace lab2
         Console.WriteLine("Местоположение: " + Location);
         Console.WriteLine("Количество сотрудников: " + EmployeeCount);
     }
+    class Vari
+{
+    private string name;
+
+    public Vari(string name)
+    {
+        this.name = name;
+    }
+}
 }
 }
 
